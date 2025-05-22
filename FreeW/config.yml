@@ -1,0 +1,32 @@
+# 资源包HTTP服务端口（默认8080，若被占用将自动递增查找可用端口）
+http_port: 8080
+
+# 资源包相关配置
+base_url: "http://127.0.0.1:8080/resourcepacks/"
+
+# 是否强制加载资源包（true=拒绝时踢出，false=仅取消加载）
+force_pack: false
+
+# 资源包选择弹窗提示，可用 %pack_name% 占位资源包文件名
+pack_prompt: "需要下载资源包 %pack_name% 才能游玩，是否下载？"
+# 资源包弹窗的“拒绝”按钮文本
+pack_decline_button: "拒绝"
+# 资源包弹窗的“接受”按钮文本
+pack_accept_button: "接受"
+
+# 玩家拒绝资源包时的踢出提示
+kick.decline: "§c你拒绝了资源包下载，已断开连接。"
+# 资源包下载失败时的提示
+kick.fail: "§c资源包下载失败，请检查网络或联系管理员。"
+# 没有资源包时的提示
+msg.no_resourcepack: "§a服务器未检测到资源包，无需下载即可游玩。"
+# 重载配置提示
+reload.success: "§a配置文件已重载。"
+
+# 其他展示配置
+title: "§a自定义包"
+subtitle: "§e欢迎使用发包插件"
+fadeIn: 10
+stay: 70
+fadeOut: 20
+

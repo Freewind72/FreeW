@@ -1,0 +1,5 @@
+kick.decline: "§c你拒绝了资源包下载，已断开连接。"
+kick.fail: "§c资源包下载失败，请检查网络或联系管理员。"
+msg.no_resourcepack: "§a服务器未检测到资源包，无需下载即可游玩。"
+reload.success: "§a语言文件已重载。"
+base_url: "http://127.0.0.1:8080/resourcepacks/"
